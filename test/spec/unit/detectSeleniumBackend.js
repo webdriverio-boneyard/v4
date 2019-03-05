@@ -42,7 +42,7 @@ describe('WebdriverIO detects Selenium backend', () => {
         caps.host.should.be.deep.equal('hub.testingbot.com')
         caps.port.should.be.deep.equal(80)
     })
-    describe('when provided with saucalabs credentials', () => {
+    describe('when provided with saucelabs credentials', () => {
         const saucelabsCredentials = {
             user: 'foobar',
             key: '50aa152c-1932-B2f0-9707-18z46q2n1mb0'
