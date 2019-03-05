@@ -65,7 +65,7 @@ describe('WebdriverIO detects Selenium backend', () => {
             caps.protocol.should.be.deep.equal('https')
         })
 
-        it('should allow specifyinig a custom region', () => {
+        it('should allow specifying a custom region', () => {
             const caps = detectSeleniumBackend({
                 ...saucelabsCredentials,
                 region: 'foo-1'
